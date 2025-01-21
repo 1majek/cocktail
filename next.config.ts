@@ -1,7 +1,13 @@
-import type { NextConfig } from "next";
+/** @type {import('next').NextConfig} */
 
-const nextConfig: NextConfig = {
-  /* config options here */
+const nextConfig = {
+  output: 'export',  // Enable static exports
+  basePath: '/cocktail', // GitHub Pages repository name
+  images: {
+    unoptimized: true, // Required for static export
+  },
+  // Disable server-side features since GitHub Pages is static
+  trailingSlash: true,
 };
 
 export default nextConfig;

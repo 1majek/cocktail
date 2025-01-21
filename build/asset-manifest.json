@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/cocktail/static/css/main.09016be1.css",
+    "main.js": "/cocktail/static/js/main.a37aead8.js",
+    "static/js/453.99536d1c.chunk.js": "/cocktail/static/js/453.99536d1c.chunk.js",
+    "static/media/hero-bg.jpg": "/cocktail/static/media/hero-bg.8aa6beede029c0e045d6.jpg",
+    "index.html": "/cocktail/index.html",
+    "main.09016be1.css.map": "/cocktail/static/css/main.09016be1.css.map",
+    "main.a37aead8.js.map": "/cocktail/static/js/main.a37aead8.js.map",
+    "453.99536d1c.chunk.js.map": "/cocktail/static/js/453.99536d1c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.09016be1.css",
+    "static/js/main.a37aead8.js"
+  ]
+}

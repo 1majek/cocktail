@@ -17,40 +17,35 @@ const features: Feature[] = [
 
 export default function About() {
   return (
-    <main className="pt-24 pb-16">
-      {/* Story Section */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-20">
-        <div className="text-center mb-16">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4 gold-gradient bg-clip-text text-transparent">
-            Our Story
-          </h1>
-        </div>
-        <div className="max-w-3xl mx-auto text-center">
-          <p className="text-gray-300 text-lg mb-6">
-            Founded in 2024, our cocktail bar brings together the art of mixology with an atmosphere of sophistication and style. We believe in creating more than just drinks – we craft experiences.
+    <main className="min-h-screen pt-24 px-4">
+      <div className="max-w-4xl mx-auto">
+        <h1 className="text-4xl md:text-5xl font-bold mb-8 text-gold-400">
+          About Our Cocktail Bar
+        </h1>
+        
+        <div className="space-y-6 text-lg">
+          <p>
+            Welcome to our sophisticated cocktail bar, where artisanal mixology meets elegant ambiance. 
+            We&apos;ve created a space that combines classic charm with modern innovation.
           </p>
-          <p className="text-gray-300 text-lg">
-            Every cocktail tells a story, and we're here to help you discover yours. Our expert mixologists combine classic techniques with innovative approaches to create unforgettable flavors.
+          
+          <p>
+            Our expert mixologists craft each drink with precision and creativity, using only the finest 
+            ingredients and spirits. We take pride in offering both timeless classics and innovative 
+            signature cocktails that push the boundaries of traditional mixology.
           </p>
-        </div>
-      </div>
-
-      {/* Features Grid */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {features.map((feature, index) => (
-            <div
-              key={index}
-              className="bg-black/50 backdrop-blur-sm border border-gold-400/20 rounded-lg p-8 text-center hover:border-gold-400/40 transition-colors"
-            >
-              <h3 className="text-xl font-semibold mb-4 text-gold-400">
-                {feature.title}
-              </h3>
-              <p className="text-gray-300">
-                {feature.description}
-              </p>
-            </div>
-          ))}
+          
+          <p>
+            The atmosphere we&apos;ve cultivated is one of refined comfort, where the lighting, music, 
+            and decor come together to create the perfect setting for everything from intimate 
+            conversations to celebratory gatherings.
+          </p>
+          
+          <p>
+            Whether you&apos;re a cocktail enthusiast or new to the world of craft beverages, 
+            our knowledgeable staff is here to guide you through our menu and help you discover 
+            your perfect drink.
+          </p>
         </div>
       </div>
     </main>

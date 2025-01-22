@@ -8,7 +8,7 @@ export default function Home() {
       <div className="relative h-screen">
         <div className="absolute inset-0">
           <Image
-            src="/hero-bg.jpg"
+            src="hero-bg.jpg"
             alt="Cocktail bar atmosphere"
             fill
             priority

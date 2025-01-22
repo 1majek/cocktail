@@ -23,7 +23,7 @@ export default function About() {
           About Our Cocktail Bar
         </h1>
         
-        <div className="space-y-6 text-lg">
+        <div className="space-y-6 text-lg mb-16">
           <p>
             Welcome to our sophisticated cocktail bar, where artisanal mixology meets elegant ambiance. 
             We&apos;ve created a space that combines classic charm with modern innovation.
@@ -46,6 +46,23 @@ export default function About() {
             our knowledgeable staff is here to guide you through our menu and help you discover 
             your perfect drink.
           </p>
+        </div>
+
+        {/* Features Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {features.map((feature, index) => (
+            <div
+              key={index}
+              className="bg-black/30 border border-gold-400/20 rounded-lg p-6 hover:border-gold-400/40 transition-colors"
+            >
+              <h3 className="text-xl font-semibold mb-3 text-gold-400">
+                {feature.title}
+              </h3>
+              <p className="text-gray-300">
+                {feature.description}
+              </p>
+            </div>
+          ))}
         </div>
       </div>
     </main>
